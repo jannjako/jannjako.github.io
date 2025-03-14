@@ -1,29 +1,22 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+title:               Renowacje pokojowe
+tagline:             'Pracownia renowacji antyków w sercu Krakowa'
+description:         ''
+url:                 https://renowacjepokojowe.pl
+baseurl:             ''
+paginate:            3
+permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Lech Peres
+  url:               https://renowacjepokojowe.pl
+  email:             kontakt@renowacjepokojowe.pl
+
+# Gems
+plugins:
+  - jekyll-paginate
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
